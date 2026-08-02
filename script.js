@@ -248,37 +248,37 @@ let selectedFriend = "";
 
 const friends = {
 
-    mahesh: {
+    INDU: {
         password: "COMMITMENT",
         page: "indu.html"
     },
 
-    sravani: {
+    SOW: {
         password: "HELPING NATURE",
         page: "sow.html"
     },
 
-    rakesh: {
+    PUJ: {
         password: "SITUATION HANDLING",
         page: "puj.html"
     },
 
-    friend4: {
+    MAHI: {
         password: "SOFT HEART",
         page: "mahi.html"
     },
 
-    friend5: {
+    PRAM: {
         password: "LOYALTY",
         page: "pram.html"
     },
 
-    friend6: {
+    APPI: {
         password: "MATURITY AND DEDICATION",
         page: "appi.html"
     },
 
-    friend7: {
+    GREESH: {
         password: "PATIENCE AND SELF LOVE",
         page: "gre.html"
     }
