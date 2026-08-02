@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Friendship Day ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Bebas+Neue&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- ========================= -->
+    <!-- LOADING SCREEN -->
+    <!-- ========================= -->
+
+    <section id="loader">
+
+        <div class="heart">
+            ❤️
+        </div>
+
+        <h2 id="loadingText">
+            Searching Memories...
+        </h2>
+
+        <div class="progress-bar">
+
+            <div class="progress"></div>
+
+        </div>
+
+        <p id="percentage">
+            0%
+        </p>
+
+    </section>
+
+
+    <!-- Camera Flash -->
+
+    <div id="flash"></div>
+
+
+    <!-- ========================= -->
+    <!-- MAIN WEBSITE -->
+    <!-- ========================= -->
+
+    <main id="mainContent">
+<!-- ========================= -->
+<!-- HERO SECTION -->
+<!-- ========================= -->
+
+<section class="hero">
+
+    <p class="tagline">
+        TO THE SEVEN PEOPLE WHO MADE MY COLLEGE LIFE UNFORGETTABLE.
+    </p>
+
+    <h1 class="hero-title">
+
+        <span class="word">HAPPY</span>
+
+        <span class="word">FRIENDSHIP DAY</span>
+
+    </h1>
+
+    <p class="since">
+        Since OCTOBER 2022
+    </p>
+
+    <div class="group-image">
+
+        <img src="images/group.jpg" alt="Our Group">
+
+    </div>
+
+    <p class="hero-quote">
+
+        "Some friendships happen by chance.<br>
+
+        The best ones become family."
+
+    </p>
+
+
+
+</section>
+
+
+        <!-- Days Counter -->
+
+        <section class="days-section">
+
+            <div class="days-card">
+
+                <p>Together For</p>
+
+                <h2 id="daysCounter">
+
+                    0
+
+                </h2>
+
+                <span>DAYS</span>
+
+            </div>
+
+        </section>
+
+
+        <!-- Gallery -->
+
+        <section class="gallery">
+
+            <div class="box box1">
+                <img src="images/img1.jpeg" alt="">
+            </div>
+
+            <div class="box box2">
+                <img src="images/img2.jpg" alt="">
+            </div>
+
+            <div class="box box3">
+                <img src="images/img3.jpeg" alt="">
+            </div>
+
+            <div class="box box4">
+                <img src="images/img4.jpeg" alt="">
+            </div>
+
+            <div class="box box5">
+                <img src="images/img5.jpg" alt="">
+            </div>
+
+          
+
+        </section>
+
+
+        <!-- Bottom -->
+
+        <section class="bottom">
+
+            <p>
+
+                Every picture holds a memory.
+
+                <br>
+
+                Scroll to unlock ours.
+
+            </p>
+
+            <div class="scroll">
+
+                ↓
+
+            </div>
+
+        </section>
+        
+    
+        <!-- ================================= -->
+<!-- MEMORY WALL -->
+<!-- ================================= -->
+
+<section class="memory-wall" id="wall">
+
+    <h2>OUR MEMORY WALL</h2>
+
+    <p>
+        Every photo tells a different story.
+        <br>
+        Choose yours.
+    </p>
+
+    <div class="photos">
+
+        <div class="polaroid" onclick="openPassword('mahesh')">
+            <img src="images/f1.jpg">
+            <h3>My Bed Partner</h3>
+        </div>
+
+        <div class="polaroid" onclick="openPassword('mahesh')">
+            <img src="images/f2.jpg">
+            <h3>My dear Overthinker</h3>
+        </div>
+
+        <div class="polaroid" onclick="openPassword('mahesh')">
+            <img src="images/f3.jpg">
+            <h3>My Chali Kaalam</h3>
+        </div>
+
+        <div class="polaroid" onclick="openPassword('mahesh')">
+            <img src="images/f4.jpg">
+            <h3>My Gummi</h3>
+        </div>
+
+       <div class="polaroid" onclick="openPassword('mahesh')">
+            <img src="images/f5.jpg">
+            <h3>My Best Friend</h3>
+        </div>
+
+        <div class="polaroid" onclick="openPassword('mahesh')">
+            <img src="images/f6.jpg">
+            <h3>My Ms Matured</h3>
+        </div>
+
+        <div class="polaroid" onclick="openPassword('mahesh')">
+            <img src="images/f7.jpg">
+            <h3>My our Influencer</h3>
+        </div>
+
+    </div>
+
+</section>
+
+    </main>
+
+<!-- Password Popup -->
+
+<!-- ================================= -->
+<!-- PASSWORD POPUP -->
+<!-- ================================= -->
+
+<div id="passwordModal" class="modal">
+
+    <div class="modal-content">
+
+        <span class="close-btn" onclick="closePassword()">&times;</span>
+
+        <h2>🔒 Secret Entry</h2>
+
+        <p>Enter your password to unlock your memories.</p>
+
+        <input
+            type="password"
+            id="passwordInput"
+            placeholder="Enter Password">
+
+        <p id="error"></p>
+
+        <button onclick="checkPassword()">
+            Unlock ❤️
+        </button>
+
+    </div>
+
+</div>
+
+
+</section>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
